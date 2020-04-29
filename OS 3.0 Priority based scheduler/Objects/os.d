@@ -1,0 +1,12 @@
+.\objects\os.o: OS.c
+.\objects\os.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\os.o: STD_TYPES.h
+.\objects\os.o: BIT_MATH.h
+.\objects\os.o: SysTick_interface.h
+.\objects\os.o: SysTick_private.h
+.\objects\os.o: SCB_interface.h
+.\objects\os.o: SCB_private.h
+.\objects\os.o: Semaphore.h
+.\objects\os.o: OS_Portable.h
+.\objects\os.o: OS.h
+.\objects\os.o: OS_Services.h

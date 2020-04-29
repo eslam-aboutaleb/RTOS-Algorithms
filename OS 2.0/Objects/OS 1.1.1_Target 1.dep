@@ -1,0 +1,120 @@
+Dependencies for Project 'OS 1.1.1', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\BIT_MATH.h)(0x5E9E2A4E)()
+F (.\NVIC.h)(0x5E9DE43D)()
+F (.\NVIC_interface.h)(0x5E9E2A4D)()
+F (.\NVIC_private.h)(0x5E9E2A4E)()
+F (.\RCC_interface.h)(0x5E9E2A4D)()
+F (.\RCC_private.h)(0x5E9E2A4D)()
+F (.\SCB_interface.h)(0x5E9E2A4D)()
+F (.\SCB_private.h)(0x5EA27970)()
+F (.\STD_TYPES.h)(0x5E9E395A)()
+F (.\SysTick_interface.h)(0x5E9F585D)()
+F (.\SysTick_private.h)(0x5E9F585D)()
+F (.\Tasks.h)(0x5EA2A476)()
+F (.\main.c)(0x5EA5356B)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\Dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Dell\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F446xx-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (STD_TYPES.h)(0x5E9E395A)
+I (BIT_MATH.h)(0x5E9E2A4E)
+I (OS.h)(0x5EA7BB9A)
+I (OS_Services.h)(0x5EA76BAE)
+I (Semaphore.h)(0x5EA53AD1)
+I (Tasks.h)(0x5EA2A476)
+I (OS_FIFO_Buffer.h)(0x5EA5356B)
+F (.\NVIC.c)(0x5EA3DDBB)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\Dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Dell\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F446xx-o .\objects\nvic.o --omf_browse .\objects\nvic.crf --depend .\objects\nvic.d)
+I (STD_TYPES.h)(0x5E9E395A)
+I (BIT_MATH.h)(0x5E9E2A4E)
+I (NVIC_interface.h)(0x5E9E2A4D)
+I (NVIC_private.h)(0x5E9E2A4E)
+I (SCB_interface.h)(0x5E9E2A4D)
+I (SCB_private.h)(0x5EA27970)
+F (.\RCC_program.c)(0x5E9E2A4D)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\Dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Dell\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F446xx-o .\objects\rcc_program.o --omf_browse .\objects\rcc_program.crf --depend .\objects\rcc_program.d)
+I (STD_TYPES.h)(0x5E9E395A)
+I (BIT_MATH.h)(0x5E9E2A4E)
+I (RCC_private.h)(0x5E9E2A4D)
+I (RCC_interface.h)(0x5E9E2A4D)
+F (.\SysTick.c)(0x5EA27A65)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\Dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Dell\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F446xx-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
+I (STD_TYPES.h)(0x5E9E395A)
+I (BIT_MATH.h)(0x5E9E2A4E)
+I (SysTick_interface.h)(0x5E9F585D)
+I (SysTick_private.h)(0x5E9F585D)
+F (.\Tasks.c)(0x5EA7735C)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\Dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Dell\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F446xx-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
+I (STD_TYPES.h)(0x5E9E395A)
+I (BIT_MATH.h)(0x5E9E2A4E)
+I (Semaphore.h)(0x5EA53AD1)
+I (Tasks.h)(0x5EA2A476)
+I (OS_Mailbox.h)(0x5EA529BB)
+I (OS_FIFO_Buffer.h)(0x5EA5356B)
+I (OS.h)(0x5EA7BB9A)
+I (OS_Services.h)(0x5EA76BAE)
+F (.\OS.c)(0x5EA7735C)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\Dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Dell\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F446xx-o .\objects\os.o --omf_browse .\objects\os.crf --depend .\objects\os.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9B2678)
+I (STD_TYPES.h)(0x5E9E395A)
+I (BIT_MATH.h)(0x5E9E2A4E)
+I (SysTick_interface.h)(0x5E9F585D)
+I (SysTick_private.h)(0x5E9F585D)
+I (NVIC_interface.h)(0x5E9E2A4D)
+I (NVIC_private.h)(0x5E9E2A4E)
+I (SCB_interface.h)(0x5E9E2A4D)
+I (SCB_private.h)(0x5EA27970)
+I (Timer_interface.h)(0x5EA7623F)
+I (Timer_private.h)(0x5EA7155F)
+I (Semaphore.h)(0x5EA53AD1)
+I (OS.h)(0x5EA7BB9A)
+I (OS_Services.h)(0x5EA76BAE)
+F (.\OS_Mailbox.c)(0x5EA5273D)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\Dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Dell\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F446xx-o .\objects\os_mailbox.o --omf_browse .\objects\os_mailbox.crf --depend .\objects\os_mailbox.d)
+I (STD_TYPES.h)(0x5E9E395A)
+I (BIT_MATH.h)(0x5E9E2A4E)
+I (Semaphore.h)(0x5EA53AD1)
+F (.\Semaphore.c)(0x5EA53AD1)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\Dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Dell\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F446xx-o .\objects\semaphore.o --omf_browse .\objects\semaphore.crf --depend .\objects\semaphore.d)
+I (STD_TYPES.h)(0x5E9E395A)
+I (BIT_MATH.h)(0x5E9E2A4E)
+I (OS.h)(0x5EA7BB9A)
+I (OS_Services.h)(0x5EA76BAE)
+I (Semaphore.h)(0x5EA53AD1)
+F (.\OS.s)(0x5EA373D1)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -I.\RTE\_Target_1-IC:\Users\Dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Dell\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "STM32F446xx SETA 1"--list .\listings\os.lst --xref -o .\objects\os_1.o --depend .\objects\os_1.d)
+F (.\Semaphore.h)(0x5EA53AD1)()
+F (.\OS.h)(0x5EA7BB9A)()
+F (.\OS_Mailbox.h)(0x5EA529BB)()
+F (.\OS_FIFO_Buffer.c)(0x5EA53AD1)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\Dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Dell\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F446xx-o .\objects\os_fifo_buffer.o --omf_browse .\objects\os_fifo_buffer.crf --depend .\objects\os_fifo_buffer.d)
+I (STD_TYPES.h)(0x5E9E395A)
+I (BIT_MATH.h)(0x5E9E2A4E)
+I (OS.h)(0x5EA7BB9A)
+I (OS_Services.h)(0x5EA76BAE)
+I (Semaphore.h)(0x5EA53AD1)
+I (OS_FIFO_Buffer.h)(0x5EA5356B)
+F (.\OS_FIFO_Buffer.h)(0x5EA5356B)()
+F (.\Timer_private.h)(0x5EA7155F)()
+F (.\Timer_interface.h)(0x5EA7623F)()
+F (.\Timer_program.c)(0x5EA769E2)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\Dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Dell\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F446xx-o .\objects\timer_program.o --omf_browse .\objects\timer_program.crf --depend .\objects\timer_program.d)
+I (STD_TYPES.h)(0x5E9E395A)
+I (BIT_MATH.h)(0x5E9E2A4E)
+I (RCC_interface.h)(0x5E9E2A4D)
+I (RCC_private.h)(0x5E9E2A4D)
+I (Timer_interface.h)(0x5EA7623F)
+I (Timer_private.h)(0x5EA7155F)
+F (.\OS_Services.c)(0x5EA7735C)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\Dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Dell\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F446xx-o .\objects\os_services.o --omf_browse .\objects\os_services.crf --depend .\objects\os_services.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9B2678)
+I (STD_TYPES.h)(0x5E9E395A)
+I (BIT_MATH.h)(0x5E9E2A4E)
+I (SysTick_interface.h)(0x5E9F585D)
+I (SysTick_private.h)(0x5E9F585D)
+I (NVIC_interface.h)(0x5E9E2A4D)
+I (NVIC_private.h)(0x5E9E2A4E)
+I (SCB_interface.h)(0x5E9E2A4D)
+I (SCB_private.h)(0x5EA27970)
+I (Timer_interface.h)(0x5EA7623F)
+I (Timer_private.h)(0x5EA7155F)
+I (OS.h)(0x5EA7BB9A)
+I (OS_Services.h)(0x5EA76BAE)
+F (.\OS_Services.h)(0x5EA76BAE)()
+F (RTE\Device\STM32F446RETx\startup_stm32f446xx.s)(0x5C5BE482)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -I.\RTE\_Target_1-IC:\Users\Dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Dell\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "STM32F446xx SETA 1"--list .\listings\startup_stm32f446xx.lst --xref -o .\objects\startup_stm32f446xx.o --depend .\objects\startup_stm32f446xx.d)
+F (RTE\Device\STM32F446RETx\system_stm32f4xx.c)(0x5C5BE482)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\Dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Dell\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F446xx-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (C:\Users\Dell\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5C5BE482)
+I (C:\Users\Dell\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f446xx.h)(0x5C5BE482)
+I (C:\Users\Dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (C:\Users\Dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\Dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Users\Dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F2582)
+I (C:\Users\Dell\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5C5BE482)

@@ -1,0 +1,14 @@
+.\objects\os_services.o: OS_Services.c
+.\objects\os_services.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\os_services.o: STD_TYPES.h
+.\objects\os_services.o: BIT_MATH.h
+.\objects\os_services.o: SysTick_interface.h
+.\objects\os_services.o: SysTick_private.h
+.\objects\os_services.o: NVIC_interface.h
+.\objects\os_services.o: NVIC_private.h
+.\objects\os_services.o: SCB_interface.h
+.\objects\os_services.o: SCB_private.h
+.\objects\os_services.o: Timer_interface.h
+.\objects\os_services.o: Timer_private.h
+.\objects\os_services.o: OS.h
+.\objects\os_services.o: OS_Services.h

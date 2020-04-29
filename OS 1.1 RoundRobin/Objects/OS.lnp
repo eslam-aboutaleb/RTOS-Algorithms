@@ -1,0 +1,18 @@
+--cpu=Cortex-M4.fp.sp
+".\objects\tasks.o"
+".\objects\systick.o"
+".\objects\rcc_program.o"
+".\objects\nvic.o"
+".\objects\main.o"
+".\objects\led.o"
+".\objects\gpio_prog.o"
+".\objects\semaphore.o"
+".\objects\os_mailbox.o"
+".\objects\os.o"
+".\objects\os_1.o"
+".\objects\startup_stm32f446xx.o"
+".\objects\system_stm32f4xx.o"
+--strict --scatter ".\Objects\OS.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\OS.map" -o .\Objects\OS.axf
