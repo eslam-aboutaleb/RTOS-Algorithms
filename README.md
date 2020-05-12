@@ -33,3 +33,8 @@ Implementation of different algorithims for real time operating systems.
 4- OS 3.0 its scheduler is priority based scheduler decides which task to run if itsn't blocked or delayed and highest priority.
    -Added priority section in task control block
    -Moved portable files into one file OS_Portable so the user can use it on any ARM MCU, just make some changes in that file.
+   
+   
+  Refrences: UC/OS II for ARM files and Jonathan Valvano's book: Real-Time Operating Systems for Arm Cortex M Microcontrollers.
+  
+  Email : eslamaboutaleb@yahoo.com
